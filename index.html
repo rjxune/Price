@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price</title>
+    <style>
+        body{
+            background-color: #f6ddc7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .motorcyle{
+            width: 200px; height: 200px; 
+        }
+        ul{
+            list-style-type: none;
+        }
+     .main-logo> img{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 3px solid orchid;
+            box-shadow: 10px 10px;
+            margin-top: 50px;
+        }
+
+        .main-header{
+                font-weight: bolder;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 3rem;
+                
+        }
+        
+
+        .Inquire{
+            border: none;
+            color:  whitesmoke;
+            background-color: tomato;
+            margin: 4px 2x;
+            font-size: 20px;
+            padding: 20px;
+            width: 200px;
+            border-radius: 4px;
+        }
+
+        .main-cointainer{
+            display: flex;
+            justify-content: space-evenly;   
+            align-items: center;
+         
+         
+       
+        }
+        
+        .product{
+            max-height: 600px;
+            border: 5px ridge coral;
+            padding: 80px;       
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: ghostwhite;
+          
+           
+  
+          
+           
+        }
+        .product-name{
+            text-align:center;
+            font-weight: bolder;
+            font-size: 24px;
+         
+        }
+        .product-cash{
+            text-align: center;
+           
+        }
+        .product-installment{
+            text-align: center;
+            
+          
+        }
+        .product-installment-price{
+            text-align: center;
+           
+           
+        }
+        .product-button{
+         text-align: center;
+        
+        }
+
+        h1 span{
+            color: tomato;
+            text-shadow: 5px 5px black;
+            
+        }
+        .main-logo{
+            padding-left: 100px;
+        }
+        .main-header{
+            display: flex;
+            justify-content: center;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .footer{
+            margin-top: 650px;
+
+        }
+
+        footer span{
+            color: tomato;
+            font-weight: bolder;
+            margin-top: 50px;
+        }
+
+        @media(max-width:680px){
+            .main-cointainer{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .footer{
+                margin-left: 300px;
+                margin-top: 50px;
+            }
+            
+            
+        }
+        
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="main-logo"><img src="./assest/try-logo.png" alt="logo"></div>
+
+    <div class="main-header">
+        <h1>Try <span>Build;</span></h1>
+        
+    </div>
+    
+    <div class="main-cointainer">
+        
+    
+    <div class="product"><img class="motorcyle" src="./assest/r6.png" alt="Yamaha r6">
+    <div class="product-name">Yamaha R6</div>
+    <div class="product-cash">PHP 1,000,000</div>
+    <div class="product-installment-price">
+        <ul>Installment Plan
+            <li>Yearly:100,000</li>
+            <li>Monthly:25,000</li>
+        </ul>
+        
+    </div>
+    <div class="product-button"><button type="button" onclick="alert('Love You Bebii ❤!')" class="Inquire">Inquire now</button></div>
+    </div>
+
+    <div class="product"><img class="motorcyle" src="./assest/Ninja650.png" alt="Kawasaki 650">
+    <div class="product-name">Kawasaki 650</div>
+    <div class="product-cash">PHP 1,000,000</div>
+  
+    <div class="product-installment-price">
+        <ul>Installment Plan
+            <li>Yearly:100,000</li>
+            <li>Monthly:25,000</li>
+        </ul>
+    </div>
+    <div class="product-button"><button type="button" onclick="alert('Love You Bebi ko ❥!')" class="Inquire">Inquire now</button></div>
+    </div>
+
+
+    <div class="product"><img class="motorcyle" src="./assest/ducati.png" alt="Duacati Panigale">
+    <div class="product-name">Ducati Panigale</div>
+    <div class="product-cash">PHP 1,000,000</div>
+    <div class="product-installment-price">
+        <ul>Installment Plan
+            <li>Yearly:100,000</li>
+            <li>Monthly:25,000</li>
+        </ul>
+    </div>
+    <div class="product-button"><button type="button" onclick="alert('Love You Bebilabs  ❥!')" class="Inquire">Inquire now</button></div>
+    </div>
+
+       <div class="footer"><footer>try<span>build;</span></footer></div> 
+
+
+
+
+
+
+</div>
+</body>
+</html>
